@@ -12,7 +12,7 @@ export default function Home ({ tweets }) {
       <Head>
         <title>Microblogging</title>
       </Head>
-      <main className='flex mx-auto xl:max-w-7xl'>
+      <main className='flex mx-auto xl:max-w-7xl '>
         {/**Sidebar */}
         <Sidebar />
         {/**Feed */}

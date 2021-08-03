@@ -1,5 +1,5 @@
 //front-end
-
+//back-end
 function SidebarOptions ({ Icon, title, src }) {
   return (
     <div className='sidebarOption'>
@@ -25,11 +25,11 @@ function SidebarOptions ({ Icon, title, src }) {
       )}
       <p
         className='
-            hidden
-            sm:inline-flex
+            xl:inline-flex
             font-bold
             text-blue-100
             text-lg
+            sm:hidden
             '
       >
         {title}

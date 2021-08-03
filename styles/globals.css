@@ -3,6 +3,10 @@
 @tailwind utilities;
 @layer components {
   .sidebarOption {
+    @apply hidden xl:inline-flex  space-x-5 items-center p-2 hover:bg-gray-900 hover:rounded-full cursor-pointer hover:text-blue-600;
+  }
+
+  .sidebarOptionPrimary {
     @apply flex space-x-5 items-center p-2 hover:bg-gray-900 hover:rounded-full cursor-pointer hover:text-blue-600;
   }
 
