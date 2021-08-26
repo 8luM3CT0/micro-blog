@@ -33,10 +33,8 @@ function Sidebar () {
       flex
       max-w-[600px]
       xl:min-w-[300px]
-      sm:min-w-[90px]
-      sm:max-w-[180px]
-      md:min-w-[90px]
-      md:max-w-[180px]
+      min-w-[90px]
+      max-w-[180px]
       flex-col 
       justify-between
       h-screen
