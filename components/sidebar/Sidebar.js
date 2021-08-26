@@ -113,7 +113,6 @@ function Sidebar () {
             font-bold
             text-blue-100
             text-lg
-            sm:hidden
             '
               >
                 Notifications
