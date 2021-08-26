@@ -25,7 +25,8 @@ function SidebarOptions ({ Icon, title, src }) {
       )}
       <p
         className='
-            xl:inline-flex
+            hidden
+            sm:inline-flex
             font-bold
             text-blue-100
             text-lg
