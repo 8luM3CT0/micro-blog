@@ -28,7 +28,9 @@ function Sidebar () {
 
   return (
     <Container
-      className=' 
+      className='
+      justify-center
+      sm:justify-between
       p-2 
       flex
       max-w-[600px]
@@ -36,7 +38,6 @@ function Sidebar () {
       min-w-[90px]
       max-w-[180px]
       flex-col 
-      justify-between
       h-screen
       sm:flex-shrink
       '
@@ -131,11 +132,11 @@ function Sidebar () {
               />
               <p
                 className='
-            xl:inline-flex
+            hidden
+            sm:inline-flex
             font-bold
             text-blue-100
             text-lg
-            sm:hidden
             '
               >
                 Messages
@@ -145,7 +146,7 @@ function Sidebar () {
             <SidebarOptions Icon={ClipboardListIcon} title='Lists' />
             <SidebarOptions Icon={UserCircleIcon} title='Profile' />
             <SidebarOptions Icon={DotsCircleHorizontalIcon} title='More' />
-            <TweetBtn>
+            <TweetBtn className="hidden sm:inline-flex">
               <h3>Tweet</h3>
             </TweetBtn>
           </div>
