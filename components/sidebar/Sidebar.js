@@ -61,11 +61,11 @@ function Sidebar () {
               />
               <p
                 className='
-            xl:inline-flex
+            hidden
+            sm:inline-flex
             font-bold
             text-blue-100
             text-lg
-            sm:hidden
             '
               >
                 Home
@@ -84,11 +84,11 @@ function Sidebar () {
               />
               <p
                 className='
-            xl:inline-flex
+            hidden
+            sm:inline-flex
             font-bold
             text-blue-100
             text-lg
-            sm:hidden
             '
               >
                 Explore
@@ -107,7 +107,8 @@ function Sidebar () {
               />
               <p
                 className='
-            xl:inline-flex
+            hidden
+            sm:inline-flex
             font-bold
             text-blue-100
             text-lg
