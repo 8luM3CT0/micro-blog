@@ -30,7 +30,6 @@ function SidebarOptions ({ Icon, title, src }) {
             font-bold
             text-blue-100
             text-lg
-            sm:hidden
             '
       >
         {title}
